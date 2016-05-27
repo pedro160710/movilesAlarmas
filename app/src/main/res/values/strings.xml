@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Reloj Alarmas</string>
+    <string name="titulo">Alarmas</string>
+    <string name="btnAlarmas">Alarmas</string>
+    <string name="btnReloj">Reloj</string>
+    <string name="btnCronometro">Cronometro</string>
+    <string name="tituloReloj">Reloj</string>
+    <string name="tituloAlarmas">Alarmas</string>
+    <string name="tituloCronometro">Cronometro</string>
+    <string name="tituloCrearAlarma">Crear Alarmas</string>
+    <string name="txtViewHora">Hora</string>
+    <string name="btnCrearNuevaAlarma">Crear nueva alarma</string>
+</resources>
