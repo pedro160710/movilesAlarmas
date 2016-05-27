@@ -35,8 +35,9 @@ public class MenuOpciones extends AppCompatActivity {
         startActivity(instIntent);
     }
     public void abrirAlarmas (View v){
-        instIntent = new Intent(this,AlarmasActivity.class);
+        instIntent= new Intent(this, AlarmasActivity.class);
         startActivity(instIntent);
+
     }
 
 

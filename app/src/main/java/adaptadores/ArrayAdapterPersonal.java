@@ -15,9 +15,9 @@ import vo.AlarmasVo;
 /**
  * Created by Pedro on 24/05/2016.
  */
-public class AlarmasAdapter extends ArrayAdapter{
+public class ArrayAdapterPersonal extends ArrayAdapter{
   private  List<AlarmasVo> listadoAlarmas;
-    public AlarmasAdapter(Context context, List<AlarmasVo> objects) {
+    public ArrayAdapterPersonal(Context context, List<AlarmasVo> objects) {
         super(context,0, objects);
         listadoAlarmas= objects;
     }
