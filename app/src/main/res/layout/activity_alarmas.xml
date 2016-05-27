@@ -10,7 +10,7 @@
     tools:context="ec.edu.epn.alarmas.AlarmasActivity"
     android:orientation="vertical">
 
-
+<!--/-->
 
     <!--escibir cuatro botones-->
     <TextView
