@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.List;
@@ -34,10 +35,12 @@ public class ArrayAdapterPersonal extends ArrayAdapter {
 //        busca dentro del inflador a los objetos de la interfaz
         TextView titulo = (TextView) view.findViewById(R.id.lblTituloAlarma);//esto nos retorna un objeto tipo View
         TextView hora = (TextView) view.findViewById(R.id.lblHora);
+        Button botonActiveInactive =(Button) view.findViewById(R.id.btnActiveInactive);
 //        ya sabemos que nos envian un objeto tipo AlarmasVo
         AlarmasVo alarma = listadoAlarmas.get(posisicion);
         titulo.setText(alarma.getTitulo());
         hora.setText(alarma.getHora() + alarma.getMinuto() + " " + alarma.getTipoHorario());
+        //botonActiveInactive.setText("hello");
         return (view);
     }
 }

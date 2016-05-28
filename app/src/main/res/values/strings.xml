@@ -10,4 +10,5 @@
     <string name="tituloCrearAlarma">Crear Alarmas</string>
     <string name="txtViewHora">Hora</string>
     <string name="btnCrearNuevaAlarma">Crear nueva alarma</string>
+    <string name="btnActiveInactive"></string>
 </resources>
