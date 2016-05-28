@@ -24,7 +24,7 @@ public class AlarmasActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarmas);
-
+//        activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
         lvAlarmas = (ListView) findViewById(R.id.lvAlarmas);
         alarmas = new ArrayList<AlarmasVo>();
 
@@ -41,8 +41,8 @@ public class AlarmasActivity extends AppCompatActivity {
         Intent instIntent = new Intent(this, CrearAlarmaActivity.class);
         startActivity(instIntent);
     }
-    public void cambiarImagen(View view){
-        activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
+    /*public void cambiarImagen(View view){
+
         activarInactivar.setBackgroundResource(R.drawable.btnencender);
 //        if(interruptor==true) {
 //            activarInactivar.setEnabled(false);
@@ -51,7 +51,7 @@ public class AlarmasActivity extends AppCompatActivity {
 //            activarInactivar.setEnabled(true);
 //            interruptor=true;
 //        }
-    }
+    }*/
 //if(item== null){
     //LayoutInflater inflater = LayoutInflater.from(getBaseContext());
     //item.inflater.inflate(R.layout.listem_discos,null);
