@@ -40,7 +40,7 @@ public class ArrayAdapterPersonal extends ArrayAdapter {
         AlarmasVo alarma = listadoAlarmas.get(posisicion);
         titulo.setText(alarma.getTitulo());
         hora.setText(alarma.getHora() + alarma.getMinuto() + " " + alarma.getTipoHorario());
-        //botonActiveInactive.setText("hello");
+        botonActiveInactive.setText("Activo");
         return (view);
     }
 }

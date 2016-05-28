@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/itemAlarmaLayout"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
     <!--para poder inflarle no es necesario el id-->
     <!--layout solo para el ITEM-->
 
     <!--para poder poner lo svalores en las cajas de texto es necesario el ID-->
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="259dp"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/lblTituloAlarma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text="" />
 
         <TextView
-            android:background="#FFC107"
             android:id="@+id/lblHora"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:background="#FFC107"
+            android:text="" />
     </LinearLayout>
 
     <Button
-        android:background="#0766ff"
-        android:drawableRight="@drawable/btnencender"
         android:id="@+id/btnActiveInactive"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-         />
+        android:background="#0766ff"
+        android:onClick="cambiarImagen"
+        />
+    <!--android:drawableRight="@drawable/btnencender"-->
 
 
 </LinearLayout>

@@ -1,8 +1,8 @@
 package ec.edu.epn.alarmas;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
@@ -24,7 +24,7 @@ public class AlarmasActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarmas);
-//        activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
+
         lvAlarmas = (ListView) findViewById(R.id.lvAlarmas);
         alarmas = new ArrayList<AlarmasVo>();
 
@@ -41,17 +41,18 @@ public class AlarmasActivity extends AppCompatActivity {
         Intent instIntent = new Intent(this, CrearAlarmaActivity.class);
         startActivity(instIntent);
     }
-    /*public void cambiarImagen(View view){
+    public void cambiarImagen(View view){
+        //activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
+//        activarInactivar.setBackgroundResource(R.drawable.btnencender);
 
-        activarInactivar.setBackgroundResource(R.drawable.btnencender);
-//        if(interruptor==true) {
-//            activarInactivar.setEnabled(false);
-//            interruptor=false;
-//        }else if(interruptor==false){
-//            activarInactivar.setEnabled(true);
-//            interruptor=true;
-//        }
-    }*/
+        if(activarInactivar.getText().equals("Activo")) {
+            activarInactivar.setText("Inactivo");
+            System.out.println("entro a Inactivo");
+        }else if(activarInactivar.getText().equals("Inactivo")){
+            activarInactivar.setText("Inactivo");
+            System.out.println("entro a Inactivo");
+        }
+    }
 //if(item== null){
     //LayoutInflater inflater = LayoutInflater.from(getBaseContext());
     //item.inflater.inflate(R.layout.listem_discos,null);
