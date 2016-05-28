@@ -34,8 +34,7 @@
         android:id="@+id/btnActiveInactive"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="@string/btnActiveInactive"
-        android:src="@drawable/btnencender"/>
+        android:onClick="cambiarImagen" />
 
 
 </LinearLayout>

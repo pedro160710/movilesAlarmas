@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -16,11 +17,14 @@ public class AlarmasActivity extends AppCompatActivity {
     private ListView lvAlarmas;
     private List<AlarmasVo> alarmas;
     private ArrayAdapterPersonal adaptadorPersonalizado;
+    private Button activarInactivar;
+    private boolean interruptor= true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarmas);
-
+        activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
         lvAlarmas = (ListView) findViewById(R.id.lvAlarmas);
         alarmas = new ArrayList<AlarmasVo>();
 
@@ -36,6 +40,16 @@ public class AlarmasActivity extends AppCompatActivity {
     public void abrirCrearAlarma(View v) {
         Intent instIntent = new Intent(this, CrearAlarmaActivity.class);
         startActivity(instIntent);
+    }
+    public void cambiarImagen(View view){
+        activarInactivar.setBackgroundResource(R.drawable.btnencender);
+        if(interruptor==true) {
+            activarInactivar.setEnabled(false);
+            interruptor=false;
+        }else if(interruptor==false){
+            activarInactivar.setEnabled(true);
+            interruptor=true;
+        }
     }
 //if(item== null){
     //LayoutInflater inflater = LayoutInflater.from(getBaseContext());
