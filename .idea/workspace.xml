@@ -13,7 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ec/edu/epn/alarmas/AlarmasActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ec/edu/epn/alarmas/AlarmasActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnEncender.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnEncender.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_alarma.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_alarma.xml" />
     </list>
     <ignored path="movilesAlarmasGit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,24 +33,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="item_alarma.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="item_alarma.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_alarma.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5907781">
+            <state vertical-scroll-proportion="-3.7272727">
               <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btnencender.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="btnencender.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnencender.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.18085106">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -97,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ec/edu/epn/alarmas/AlarmasActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -1707,8 +1706,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnEncender.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/adaptadores/ArrayAdapterPersonal.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_alarma.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnencender.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ec/edu/epn/alarmas/AlarmasActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnencender.xml" />
       </list>
     </option>
   </component>
@@ -2344,14 +2343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/adaptadores/ArrayAdapterPersonal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alarmas.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2366,10 +2357,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnencender.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_alarma.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state vertical-scroll-proportion="-3.7272727">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/adaptadores/ArrayAdapterPersonal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -2377,18 +2379,15 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ec/edu/epn/alarmas/AlarmasActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_alarma.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btnencender.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5907781">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.18085106">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>

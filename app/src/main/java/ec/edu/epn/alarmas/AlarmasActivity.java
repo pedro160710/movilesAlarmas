@@ -24,7 +24,7 @@ public class AlarmasActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarmas);
-        activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
+
         lvAlarmas = (ListView) findViewById(R.id.lvAlarmas);
         alarmas = new ArrayList<AlarmasVo>();
 
@@ -42,14 +42,15 @@ public class AlarmasActivity extends AppCompatActivity {
         startActivity(instIntent);
     }
     public void cambiarImagen(View view){
+        activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
         activarInactivar.setBackgroundResource(R.drawable.btnencender);
-        if(interruptor==true) {
-            activarInactivar.setEnabled(false);
-            interruptor=false;
-        }else if(interruptor==false){
-            activarInactivar.setEnabled(true);
-            interruptor=true;
-        }
+//        if(interruptor==true) {
+//            activarInactivar.setEnabled(false);
+//            interruptor=false;
+//        }else if(interruptor==false){
+//            activarInactivar.setEnabled(true);
+//            interruptor=true;
+//        }
     }
 //if(item== null){
     //LayoutInflater inflater = LayoutInflater.from(getBaseContext());
