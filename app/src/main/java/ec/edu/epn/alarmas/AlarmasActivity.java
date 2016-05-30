@@ -47,8 +47,10 @@ public class AlarmasActivity extends AppCompatActivity {
 
         if(activarInactivar.getText().equals("Activo")) {
             activarInactivar.setText("Inactivo");
+            activarInactivar.setBackgroundResource(R.drawable.ic_action_alarma);
             System.out.println("entro a Inactivo");
         }else if(activarInactivar.getText().equals("Inactivo")){
+            activarInactivar.setBackgroundResource(R.drawable.ic_action_name);
             activarInactivar.setText("Activo");
             System.out.println("entro a Activo");
         }
