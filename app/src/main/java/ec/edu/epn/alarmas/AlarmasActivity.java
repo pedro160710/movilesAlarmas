@@ -42,15 +42,15 @@ public class AlarmasActivity extends AppCompatActivity {
         startActivity(instIntent);
     }
     public void cambiarImagen(View view){
-        //activarInactivar = (Button)findViewById(R.id.btnActiveInactive);
-//        activarInactivar.setBackgroundResource(R.drawable.btnencender);
+        activarInactivar = (Button) view;
+       //activarInactivar.setBackgroundResource(R.drawable.btnencender);
 
         if(activarInactivar.getText().equals("Activo")) {
             activarInactivar.setText("Inactivo");
             System.out.println("entro a Inactivo");
         }else if(activarInactivar.getText().equals("Inactivo")){
-            activarInactivar.setText("Inactivo");
-            System.out.println("entro a Inactivo");
+            activarInactivar.setText("Activo");
+            System.out.println("entro a Activo");
         }
     }
 //if(item== null){
