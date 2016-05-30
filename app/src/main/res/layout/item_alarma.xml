@@ -37,7 +37,7 @@
         android:background="#0766ff"
         android:onClick="cambiarImagen"
         android:layout_weight="0.70" />
-    <!--android:drawableRight="@drawable/btnencender"-->
+
 
 
 </LinearLayout>

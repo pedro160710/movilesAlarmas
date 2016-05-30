@@ -55,8 +55,5 @@ public class AlarmasActivity extends AppCompatActivity {
             activarInactivar.setText("Activo");
         }
     }
-//if(item== null){
-    //LayoutInflater inflater = LayoutInflater.from(getBaseContext());
-    //item.inflater.inflate(R.layout.listem_discos,null);
-//}
+
 }
