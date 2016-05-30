@@ -41,6 +41,7 @@ public class ArrayAdapterPersonal extends ArrayAdapter {
         titulo.setText(alarma.getTitulo());
         hora.setText(alarma.getHora() + alarma.getMinuto() + " " + alarma.getTipoHorario());
         botonActiveInactive.setText("Activo");
+        botonActiveInactive.setCompoundDrawablesWithIntrinsicBounds(0 , 0, R.drawable.ic_action_name, 0);
         return (view);
     }
 }

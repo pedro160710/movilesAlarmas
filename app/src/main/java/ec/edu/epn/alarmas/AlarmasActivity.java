@@ -47,12 +47,12 @@ public class AlarmasActivity extends AppCompatActivity {
 
         if(activarInactivar.getText().equals("Activo")) {
             activarInactivar.setText("Inactivo");
-            activarInactivar.setBackgroundResource(R.drawable.ic_action_alarma);
-            System.out.println("entro a Inactivo");
+//            activarInactivar.setBackgroundResource(R.drawable.ic_action_alarma);
+            activarInactivar.setCompoundDrawablesWithIntrinsicBounds( 0, 0, R.drawable.ic_action_alarma, 0);
         }else if(activarInactivar.getText().equals("Inactivo")){
-            activarInactivar.setBackgroundResource(R.drawable.ic_action_name);
+//            activarInactivar.setBackgroundResource(R.drawable.ic_action_name);
+            activarInactivar.setCompoundDrawablesWithIntrinsicBounds(0 , 0, R.drawable.ic_action_name, 0);
             activarInactivar.setText("Activo");
-            System.out.println("entro a Activo");
         }
     }
 //if(item== null){
