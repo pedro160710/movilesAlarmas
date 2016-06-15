@@ -8,7 +8,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ec.edu.epn.alarmas.MenuOpciones">
+    tools:context="ec.edu.epn.alarmas.MenuOpciones"
+    android:background="#03A9F4"
+    >
 
 
     <!--escibir cuatro botones-->
@@ -44,7 +46,6 @@
         android:textSize="25sp"
         android:textColor="#008ad4"/>
     <!--android:onClick="abrirCronometro"-->
-
 
 <ImageView
     android:layout_width="wrap_content"
