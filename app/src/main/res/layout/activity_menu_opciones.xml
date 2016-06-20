@@ -17,7 +17,7 @@
         android:text="@string/app_name"
         android:textSize="6mm"
         android:gravity="center_horizontal"
-        android:textColor="#ffb012"
+        android:textColor="#4d4c4a"
         />
 
     <Button
