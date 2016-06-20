@@ -13,4 +13,5 @@
     <string name="btnCronometro">chronometer</string>
     <string name="btnCrearAlarma">New Alarm</string>
     <string name="btnAlarma">Alarms</string>
+    <string name="errorRequerido"> error ! the input can\'t be empty </string>
 </resources>

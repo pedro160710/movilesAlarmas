@@ -53,7 +53,10 @@ public class CrearAlarmaActivity extends AppCompatActivity {
         //validacion para que el titulo este cargado
         if(txtTitulo.getText().toString().isEmpty())
         {
-            Toast.makeText(this,"hi",Toast.LENGTH_LONG).show();
+            String error=getResources().getString(R.string.errorRequerido);
+            String campoTitulo=getResources().getString(R.string.tlAlarma);
+            txtTitulo.setError(campoTitulo + " "+ error);
+            Toast.makeText(this,campoTitulo + " "+ error,Toast.LENGTH_LONG).show();
             return;
         }
         else{

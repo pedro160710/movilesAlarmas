@@ -13,6 +13,7 @@
     <string name="TituloAlarma">TituloAlarma </string>
     <string name="btnCrearAlarma">Crear Alarma </string>
     <string name="activada">Activada </string>
+    <string name="errorRequerido"> error ! no hay titulo </string>
 
 
 </resources>
