@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeControlApp</string>
+    <string name="TituloAlarma">Title Alarm</string>
+    <string name="activada">Activated</string>
+    <string name="alarma">Alarms</string>
+    <string name="tlCronometro">chronometer</string>
+    <string name="tlReloj">Watch</string>
+    <string name="tlCrearAlarmas">New Alarm</string>
+    <string name="tlAlarma">Alarm</string>
+    <string name="hora">hour</string>
+    <string name="btnReloj">Watch</string>
+    <string name="btnCronometro">chronometer</string>
+    <string name="btnCrearAlarma">New Alarm</string>
+    <string name="btnAlarma">Alarms</string>
+</resources>

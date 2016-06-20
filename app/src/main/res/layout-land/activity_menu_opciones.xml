@@ -8,6 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="#09c1d6"
     tools:context="ec.edu.epn.alarmas.MenuOpciones">
 
     <TextView
@@ -15,40 +16,57 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textSize="6mm"
+        android:textSize="25dp"
         android:gravity="center_horizontal"
-        android:textColor="#ffb012"
+        android:textColor="#011141"
         />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#83abe1"
+    android:gravity="center_horizontal"
+    android:weightSum="1">
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="@string/btnReloj"
         android:onClick="abrirReloj"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
         />
-
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.06" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="@string/btnAlarma"
         android:onClick="abrirAlarmas"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
         />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.06" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="120dp"
         android:id="@+id/btnCronometro"
         android:layout_height="wrap_content"
         android:text="@string/btnCronometro"
         android:onClick="abrirCronometr"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
         />
+
+</LinearLayout>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txtNombreReloj"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/why_face"/>
+
 </LinearLayout>

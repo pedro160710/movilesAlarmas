@@ -1,14 +1,18 @@
 <resources>
-    <string name="app_name">Reloj Alarmas</string>
-    <string name="titulo">Alarmas</string>
-    <string name="btnAlarmas">Alarmas</string>
+    <string name="app_name">TimeControlApp</string>
     <string name="btnReloj">Reloj</string>
+    <string name="btnAlarma">Alarmas</string>
     <string name="btnCronometro">Cronometro</string>
-    <string name="tituloReloj">Reloj</string>
-    <string name="tituloAlarmas">Alarmas</string>
-    <string name="tituloCronometro">Cronometro</string>
-    <string name="tituloCrearAlarma">Crear Alarmas</string>
-    <string name="txtViewHora">Hora</string>
-    <string name="btnCrearNuevaAlarma">Crear nueva alarma</string>
-    <string name="btnActiveInactive"></string>
+
+    <string name="tlReloj">Reloj</string>
+    <string name="tlAlarma">Alarmas</string>
+    <string name="tlCronometro">Cronometro</string>
+    <string name="tlCrearAlarmas">Crear Alarmas</string>
+    <string name="hora">Hora</string>
+    <string name="alarma">Nueva Alarma </string>
+    <string name="TituloAlarma">TituloAlarma </string>
+    <string name="btnCrearAlarma">Crear Alarma </string>
+    <string name="activada">Activada </string>
+
+
 </resources>

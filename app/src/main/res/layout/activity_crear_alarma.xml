@@ -2,47 +2,89 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ec.edu.epn.alarmas.CrearAlarmaActivity">
 
-    android:orientation="vertical"
-    >
-    <!--tools:context="ec.edu.epn.alarmas.CrearAlarmaActivity"-->
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/tituloCrearAlarma"
-    android:textSize="45dp"
-    android:textAlignment="center"
-    android:id="@+id/txtViewTitulo"/>
-
-
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tlCrearAlarmas"
+        android:textSize="5mm"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#001fff"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtViewHora"
-        android:id="@+id/txtViewHora"
-        android:textSize="28dp"/>
+        android:text="@string/hora"
+        android:textSize="4mm"
 
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="3mm"
+        android:id="@+id/txtTituloAlarma"
+        />
     <LinearLayout
-        android:orientation="horizontal"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/txtHoraMinutos"
             android:text="00:00"
-            android:textSize="25dp"
-            android:id="@+id/editTextHora" />
+            android:textSize="10mm"
+            />
+
+
         <Spinner
             android:id="@+id/cmbTipoHorario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            ></Spinner>
+        />
+
+
     </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+
+   </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activado"
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activada"
+        android:id="@+id/btnActivada"
+        android:textOn="Si"
+        android:textOff="No"
+        />
+    <Button
+        android:id="@+id/btnCrearAlarma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCrearAlarma"
+        android:layout_gravity="center_horizontal"
+        android:onClick="crearAlarma"
+        />
 </LinearLayout>

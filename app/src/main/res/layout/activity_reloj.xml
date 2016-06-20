@@ -7,16 +7,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ec.edu.epn.alarmas.RelojActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="ec.edu.epn.alarmas.RelojActivity">
 
-
-    <!--escibir cuatro botones-->
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tituloReloj"
-        android:textAlignment="center"
-        android:foregroundGravity="center"
+        android:text="@string/tlReloj"
+        android:textSize="5mm"
+        android:gravity="center_horizontal"
+        android:textColor="#a00000"
         />
+
+
 </LinearLayout>

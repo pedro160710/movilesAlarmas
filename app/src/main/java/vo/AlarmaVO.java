@@ -1,24 +1,25 @@
 package vo;
 
 /**
- * Created by Pedro on 24/05/2016.
+ * Created by Christian on 24/5/2016.
  */
-public class AlarmasVo {
+public class AlarmaVO {
     private String titulo;
     private int hora;
     private int minuto;
     private String tipoHorario;
+    private String estado;
 
-    public AlarmasVo(){
-
+    public AlarmaVO() {
     }
-    public AlarmasVo(String titulo, int hora,  int minuto, String tipoHorario) {
+
+    public AlarmaVO(String tipoHorario, int minuto, int hora, String titulo, String estado) {
+        this.tipoHorario = tipoHorario;
+        this.minuto = minuto;
         this.hora = hora;
         this.titulo = titulo;
-        this.minuto = minuto;
-        this.tipoHorario = tipoHorario;
+        this.estado=estado;
     }
-
 
     public String getTitulo() {
         return titulo;
@@ -36,7 +37,6 @@ public class AlarmasVo {
         this.hora = hora;
     }
 
-
     public int getMinuto() {
         return minuto;
     }
@@ -51,5 +51,12 @@ public class AlarmasVo {
 
     public void setTipoHorario(String tipoHorario) {
         this.tipoHorario = tipoHorario;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 }
