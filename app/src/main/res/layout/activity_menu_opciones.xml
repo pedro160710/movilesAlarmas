@@ -25,13 +25,16 @@
         android:layout_height="wrap_content"
         android:text="@string/btnReloj"
         android:onClick="abrirReloj"
-        android:background="@color/colorBoton" />
+        android:background="@color/colorBoton"
+        android:textColor="@color/colorLetraBoton"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnAlarma"
         android:onClick="abrirAlarmas"
+        android:background="@color/colorBoton"
+        android:textColor="@color/colorLetraBoton"
         />
     <Button
         android:layout_width="match_parent"
@@ -39,6 +42,8 @@
         android:layout_height="wrap_content"
         android:text="@string/btnCronometro"
         android:onClick="abrirCronometr"
+        android:background="@color/colorBoton"
+        android:textColor="@color/colorLetraBoton"
         />
     <EditText
         android:layout_width="wrap_content"
